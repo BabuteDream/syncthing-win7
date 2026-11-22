@@ -4,7 +4,7 @@ go 1.26.2
 
 require (
 	github.com/AudriusButkevicius/recli v0.0.7
-	github.com/alecthomas/kong v1.16.1
+	github.com/alecthomas/kong v1.17.0
 	github.com/aws/aws-sdk-go v1.55.8
 	github.com/calmh/incontainer v1.0.0
 	github.com/calmh/xdr v1.2.0
@@ -12,27 +12,27 @@ require (
 	github.com/coreos/go-semver v0.3.1
 	github.com/d4l3k/messagediff v1.2.1
 	github.com/getsentry/raven-go v0.2.0
-	github.com/go-ldap/ldap/v3 v3.4.14
+	github.com/go-ldap/ldap/v3 v3.4.15
 	github.com/gobwas/glob v0.2.3
-	github.com/gofrs/flock v0.13.0
+	github.com/gofrs/flock v0.13.2
 	github.com/hashicorp/golang-lru/v2 v2.0.7
 	github.com/jackpal/gateway v1.2.0
-	github.com/jackpal/go-nat-pmp v1.0.2
+	github.com/jackpal/go-nat-pmp v1.1.0
 	github.com/jmoiron/sqlx v1.4.0
 	github.com/julienschmidt/httprouter v1.3.0
 	github.com/kballard/go-shellquote v0.0.0-20180428030007-95032a82bc51
 	github.com/maruel/panicparse/v2 v2.5.0
-	github.com/mattn/go-sqlite3 v1.14.50
+	github.com/mattn/go-sqlite3 v1.14.53
 	github.com/maxmind/geoipupdate/v6 v6.1.0
 	github.com/miscreant/miscreant.go v0.0.0-20200214223636-26d376326b75
 	github.com/oschwald/geoip2-golang v1.13.0
-	github.com/pierrec/lz4/v4 v4.1.29
-	github.com/prometheus/client_golang v1.24.1
+	github.com/pierrec/lz4/v4 v4.1.33
+	github.com/prometheus/client_golang v1.25.0
 	github.com/puzpuzpuz/xsync/v3 v3.5.1
-	github.com/quic-go/quic-go v0.61.0
-	github.com/rabbitmq/amqp091-go v1.14.0
+	github.com/quic-go/quic-go v0.65.0
+	github.com/rabbitmq/amqp091-go v1.16.0
 	github.com/rcrowley/go-metrics v0.0.0-20250401214520-65e299d6c5c9
-	github.com/shirou/gopsutil/v4 v4.26.7
+	github.com/shirou/gopsutil/v4 v4.26.10
 	github.com/syncthing/notify v0.0.0-20250528144937-c7027d4f7465
 	github.com/syndtr/goleveldb v1.0.1-0.20220721030215-126854af5e6d
 	github.com/thejerf/suture/v4 v4.0.6
@@ -40,14 +40,14 @@ require (
 	github.com/vitrun/qart v0.0.0-20160531060029-bf64b92db6b0
 	github.com/willabides/kongplete v0.4.0
 	github.com/wlynxg/anet v0.0.5
-	golang.org/x/crypto v0.55.0
+	golang.org/x/crypto v0.58.0
 	golang.org/x/exp v0.0.0-20260813180055-c1d0aacb2297
-	golang.org/x/net v0.58.0
-	golang.org/x/sys v0.47.0
-	golang.org/x/text v0.41.0
-	golang.org/x/time v0.15.0
+	golang.org/x/net v0.61.0
+	golang.org/x/sys v0.49.0
+	golang.org/x/text v0.43.0
+	golang.org/x/time v0.16.0
 	google.golang.org/protobuf v1.36.12
-	modernc.org/sqlite v1.57.0
+	modernc.org/sqlite v1.62.0
 	sigs.k8s.io/yaml v1.6.0
 )
 
@@ -58,8 +58,8 @@ require (
 	github.com/certifi/gocertifi v0.0.0-20210507211836-431795d63e8d // indirect
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
 	github.com/cpuguy83/go-md2man/v2 v2.0.7 // indirect
-	github.com/dustin/go-humanize v1.0.1 // indirect
-	github.com/ebitengine/purego v0.10.2 // indirect
+	github.com/dustin/go-humanize v1.1.0 // indirect
+	github.com/ebitengine/purego v0.11.2 // indirect
 	github.com/fsnotify/fsnotify v1.7.0 // indirect
 	github.com/go-asn1-ber/asn1-ber v1.5.8 // indirect
 	github.com/go-ole/go-ole v1.3.0 // indirect
@@ -72,29 +72,29 @@ require (
 	github.com/mattn/go-isatty v0.0.24 // indirect
 	github.com/maxbrunsfeld/counterfeiter/v6 v6.12.0 // indirect
 	github.com/munnerz/goautoneg v0.0.0-20191010083416-a7dc8b61c822 // indirect
-	github.com/ncruces/go-strftime v1.0.0 // indirect
+	github.com/ncruces/go-strftime v1.1.0 // indirect
 	github.com/nxadm/tail v1.4.11 // indirect
 	github.com/oschwald/maxminddb-golang v1.13.1 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
 	github.com/posener/complete v1.2.3 // indirect
-	github.com/power-devops/perfstat v0.0.0-20240221224432-82ca36839d55 // indirect
-	github.com/prometheus/client_model v0.6.2 // indirect
-	github.com/prometheus/common v0.70.1 // indirect
-	github.com/prometheus/procfs v0.21.1 // indirect
+	github.com/power-devops/perfstat v0.0.0-20260805114148-88456608a4f6 // indirect
+	github.com/prometheus/client_model v0.6.3 // indirect
+	github.com/prometheus/common v0.72.0 // indirect
+	github.com/prometheus/procfs v0.22.0 // indirect
 	github.com/remyoudompheng/bigfft v0.0.0-20230129092748-24d4a6f8daec // indirect
 	github.com/riywo/loginshell v0.0.0-20200815045211-7d26008be1ab // indirect
 	github.com/russross/blackfriday/v2 v2.1.0 // indirect
-	github.com/tklauser/go-sysconf v0.3.16 // indirect
-	github.com/tklauser/numcpus v0.11.0 // indirect
+	github.com/tklauser/go-sysconf v0.4.0 // indirect
+	github.com/tklauser/numcpus v0.12.0 // indirect
 	github.com/yusufpapurcu/wmi v1.2.4 // indirect
 	go.yaml.in/yaml/v2 v2.4.4 // indirect
-	golang.org/x/mod v0.39.0 // indirect
-	golang.org/x/sync v0.22.0 // indirect
-	golang.org/x/telemetry v0.0.0-20260811182544-a038080d80e5 // indirect
-	golang.org/x/tools v0.49.0 // indirect
-	modernc.org/libc v1.74.4 // indirect
+	golang.org/x/mod v0.42.0 // indirect
+	golang.org/x/sync v0.24.0 // indirect
+	golang.org/x/telemetry v0.0.0-20261009151841-97e8ea77aa2a // indirect
+	golang.org/x/tools v0.52.0 // indirect
+	modernc.org/libc v1.80.1 // indirect
 	modernc.org/mathutil v1.7.1 // indirect
-	modernc.org/memory v1.11.0 // indirect
+	modernc.org/memory v1.12.1 // indirect
 )
 
 // https://github.com/gobwas/glob/pull/55
